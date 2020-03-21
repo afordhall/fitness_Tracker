@@ -9,17 +9,9 @@ mongoose.connect("mongodb://localhost/workout", {
 let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate()-10),
-    Friend.findOneAndUpdate(
-      { _id: req.body.id }, 
-      { $push: { friends: objFriends  } },
-     function (error, success) {
-           if (error) {
-               console.log(error);
-           } else {
-               console.log(success);
-           }
-       });
-   ): [
+     exercises:
+      
+    [
       {
         type: "resistance",
         name: "Bicep Curl",
