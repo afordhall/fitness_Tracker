@@ -36,4 +36,4 @@ db.Workout.findOneAndUpdate(
 })
 
 }
-module.exports = apiRoutes;
+module.exports = apiRoutes
